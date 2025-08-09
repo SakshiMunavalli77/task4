@@ -1,0 +1,51 @@
+/* Basic desktop styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #3333338e;
+  color: rgb(110, 154, 155);
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: rgb(62, 133, 139);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  max-width: 1200px;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #7a3c3c;
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
